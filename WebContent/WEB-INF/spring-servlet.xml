@@ -34,7 +34,7 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url"
 			value="jdbc:mysql://172.30.113.181:3306/sampledb" />
-		<property name="username" value="root" />
+		<property name="username" value="sonal" />
 		<property name="password" value="sonal" />
 	</bean>
 	  
