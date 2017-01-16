@@ -34,8 +34,8 @@
 		<property name="driverClassName" value="com.mysql.jdbc.Driver" />
 		<property name="url"
 			value="jdbc:mysql://172.30.113.181:3306/sampledb" />
-		<property name="username" value="${System.env.OPENSHIFT_MYSQL_DB_USERNAME}" />
-		<property name="password" value="${System.env.OPENSHIFT_MYSQL_DB_PASSWORD}" />
+		<property name="username" value="${System.env{"OPENSHIFT_MYSQL_DB_USERNAME}"}" />
+		<property name="password" value="${System.env{"OPENSHIFT_MYSQL_DB_PASSWORD}"}" />
 	</bean>
 	  
 	<!-- <mvc:resources mapping="/resources/**" location="/resources/theme1/" cache-period="31556926"/> -->
